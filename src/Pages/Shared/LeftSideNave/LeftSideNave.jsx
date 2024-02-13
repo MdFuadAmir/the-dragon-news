@@ -2,8 +2,7 @@
 
 const LeftSideNave = () => {
     return (
-        <div>
-            left side nave
+        <div className="p-3">
             
         </div>
     );
