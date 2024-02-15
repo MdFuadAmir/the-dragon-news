@@ -48,8 +48,15 @@ const RightSideNave = () => {
         </div>
       </div>
       {/* news */}
-      <div>
-      <img src={bgpng} alt="" />
+      <div style={{
+        width: 'full',
+        height: 'full',
+        backgroundImage: `url(${bgpng})`
+      }} className="px-7 py-10 text-center justify-center">
+        <h2 className="font-bold text-3xl text-center text-white mt-12 mb-8">Create an Amazing Newspaper</h2>
+        <p className="mb-8 text-center text-base-200">Discover thousands of options, easy to customize layouts, one-click to import demo and much more.</p>
+        <button className="btn bg-red-500 text-white border-none">Learn More</button>
+
       </div>
     </div>
   );
